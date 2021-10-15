@@ -8,5 +8,7 @@ namespace Lab9
 {
     abstract class AbstractCMM
     {
+        private List<ICoffee> cupSales;
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    abstract class AbstractOther
+    abstract class AbstractOther : AbstractCoffee
     {
     }
 }

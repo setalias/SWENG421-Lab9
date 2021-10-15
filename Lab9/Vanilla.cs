@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    class Vanilla
+    class Vanilla : AbstractCondiment
     {
     }
 }

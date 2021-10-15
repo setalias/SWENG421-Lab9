@@ -8,5 +8,7 @@ namespace Lab9
 {
     interface ICMM
     {
+        
+
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    class Chocolate
+    class Chocolate: AbstractCondiment
     {
+
     }
 }

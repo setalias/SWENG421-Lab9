@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    interface ICondiment
+    interface ICondiment: ICoffee
     {
     }
 }

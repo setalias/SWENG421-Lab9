@@ -8,5 +8,15 @@ namespace Lab9
 {
     abstract class AbstractCondiment: ICondiment
     {
+        protected ICoffee coffee;
+
+        protected AbstractCondiment(ICoffee coffee)
+        {
+            this.coffee = coffee;
+        }
+
+        public abstract double getPrice();
+
+        public abstract ICoffee addToCoffee();
     }
 }

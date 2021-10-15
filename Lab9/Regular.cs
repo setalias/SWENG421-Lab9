@@ -10,7 +10,7 @@ namespace Lab9
     {
         double price = 2;
 
-        public double getPrice(double price)
+        public override double getPrice()
         {
             return this.price;
         }

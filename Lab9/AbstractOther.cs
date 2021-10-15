@@ -8,5 +8,16 @@ namespace Lab9
 {
     abstract class AbstractOther : AbstractCoffee
     {
+        double price = 5;
+
+        public double getPrice(double price)
+        {
+            return this.price;
+        }
+
+        public void run()
+        {
+
+        }
     }
 }

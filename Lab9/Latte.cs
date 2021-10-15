@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    class Latte: AbstractOther
+    class Latte : AbstractOther
     {
+        public override void run()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

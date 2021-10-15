@@ -13,7 +13,7 @@ namespace Lab9
         public void addCondiment(ICondiment type);
         public void setTemperature(int degree);
         public void setLEDNumber(int num);
-        public void computePrice(ICoffee cif);
+        public void computePrice();
         public void done();
     }
 }

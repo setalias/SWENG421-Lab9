@@ -20,10 +20,7 @@ namespace Lab9
             return this.icmm;
         }
 
-        public void run()
-        {
-
-        }
+        public abstract void run();
 
         public abstract double getPrice();
     }

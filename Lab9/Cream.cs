@@ -8,16 +8,10 @@ namespace Lab9
 {
     class Cream : AbstractCondiment
     {
-        public Cream(ICoffee coffee) : base(coffee) {}
+        private static double price = 0.25;
 
-        public override ICoffee addToCoffee()
-        {
-            return this;
-        }
+        public Cream() : base(null, price) {}
+        public Cream(ICoffee coffee) : base(coffee, price) {}
 
-        public override double getPrice()
-        {
-            return this.coffee.getPrice() + 0.25;
-        }
     }
 }

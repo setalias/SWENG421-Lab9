@@ -8,16 +8,17 @@ namespace Lab9
 {
     class Mocha : AbstractCoffee
     {
-        double price = 4;
+        private double price = 4;
 
-        public double getPrice(double price)
+        public override double getPrice()
         {
             return this.price;
         }
 
-        public void run()
+        public override void run()
         {
-
+            this.getICMM().setGrindingTime(8);
+            this.getICMM().setTemperature(150);
         }
     }
 }

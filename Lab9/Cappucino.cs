@@ -8,16 +8,16 @@ namespace Lab9
 {
     class Cappucino : AbstractCoffee
     {
-        double price = 3;
+        private double price = 3;
 
-        public double getPrice(double price)
+        public override double getPrice()
         {
             return this.price;
         }
 
-        public void run()
+        public override void run()
         {
-
+            throw new NotImplementedException();
         }
     }
 }

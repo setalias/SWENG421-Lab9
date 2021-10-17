@@ -17,7 +17,7 @@ namespace Lab9
 
         public override void run()
         {
-            throw new NotImplementedException();
+            this.getICMM().setLEDNumber(12);
         }
     }
 }

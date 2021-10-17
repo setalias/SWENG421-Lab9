@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab9
 {
-    class Latte : AbstractOther
+    class ILED
     {
-        public override void run()
-        {
-            this.getICMM().setLEDNumber(11);
-        }
     }
 }

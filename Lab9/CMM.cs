@@ -31,6 +31,9 @@ namespace Lab9
         }
         public override void setLEDNumber(int num)
         {
+            // first digit 0 as idle 1 as running
+            // second digit 0-regular 1-mocha 2-cappucino 3-other
+            Console.WriteLine("LED Output: " + num);
 
         }
         public override void computePrice()
@@ -42,6 +45,7 @@ namespace Lab9
             this.cupSales.Add(this.coffeeCup);
             this.coffeeMaker = null;
             this.coffeeCup = null;
+            this.setLEDNumber(0);
         }
     }
 }

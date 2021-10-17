@@ -17,8 +17,11 @@ namespace Lab9
 
         public override void run()
         {
+            this.getICMM().setLEDNumber(11);
             this.getICMM().setGrindingTime(8);
             this.getICMM().setTemperature(150);
+            this.getICMM().setLEDNumber(0);
+
         }
     }
 }
